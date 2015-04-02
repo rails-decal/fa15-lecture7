@@ -15,6 +15,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'simple_form', '~> 3.2.0'
 gem 'slim-rails', '~> 3.0.1'
 
+gem 'devise', '~> 3.5.2'
+
 group :development do
   gem 'spring'
   gem 'awesome_print'
