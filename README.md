@@ -1,4 +1,4 @@
-Lecture 8: Idea to App
+Lecture 7: Idea to App
 =====
 
 This week, we take an idea and turn it into an app.
