@@ -102,4 +102,26 @@ Run in your console
 ```
 rake routes
 ```
-to figure out how what the paths are to sign up and sign in.
+to figure out how what the paths are to sign up, sign in, and sign out. Update the header and the
+sign up form.
+
+To use customized devise views run in your bash:
+```
+rails generate devise:views
+```
+
+------
+
+Step 9: Defining abilities
+-----
+To generate abilities.rb run in your bash
+
+```
+rails g cancan:ability
+```
+
+and add this to every resource controller you want to authorize
+
+```ruby
+load_and_authorize_resource
+```

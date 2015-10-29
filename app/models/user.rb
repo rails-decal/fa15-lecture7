@@ -22,4 +22,8 @@ class User < ActiveRecord::Base
   has_many :quits
 
   validates :name, presence: true
+
+  def admin?
+    false
+  end
 end
