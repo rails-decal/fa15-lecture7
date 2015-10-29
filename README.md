@@ -92,3 +92,14 @@ Add this line to your Gemfile:
 ```ruby
 gem 'cancancan', '~> 1.10'
 ```
+
+------
+
+Step 8: Add Sign Up and Sign In
+-----
+
+Run in your console
+```
+rake routes
+```
+to figure out how what the paths are to sign up and sign in.
