@@ -78,3 +78,17 @@ Step 6: New, create Quit
 -----
 
 [**Step 6 Code**](https://github.com/rails-decal/fa15-lecture7/commit/da11ef12a55763d719c80a5dd54198096d84c98e)
+
+# Lecture 8: App To Idea Part 2
+These are the steps that will be followed in lecture 8 to complete our Quitter app.
+
+
+------
+
+Step 7: Update Your Gemfile
+-----
+
+Add this line to your Gemfile:
+```ruby
+gem 'cancancan', '~> 1.10'
+```

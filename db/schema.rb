@@ -13,14 +13,14 @@
 
 ActiveRecord::Schema.define(version: 20150402094522) do
 
-  create_table "quits", force: true do |t|
+  create_table "quits", force: :cascade do |t|
     t.text     "text"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "user_id"
   end
 
-  create_table "users", force: true do |t|
+  create_table "users", force: :cascade do |t|
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
